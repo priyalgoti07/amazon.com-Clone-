@@ -150,7 +150,7 @@ span {
 }
 
 .hero-message {
-    background-color: #f0a7a7;
+    background-color: #f3f3f3;
     color: #0F1111;
     height: 40px;
     display: flex;
@@ -164,20 +164,107 @@ span {
 .hero-message a {
     color: #007185;
 }
+
 /* Shop Selction */
-.shop-selction{
+.shop-selction {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #c2daec;
+    background-color: #E3E6E6;
 }
-.box{
+
+.box {
     height: 420px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 23%;
     background-color: #f3f3f3;
     padding: 20px 0px 15px;
+    margin-top: 15px;
 }
-.box-img{
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-img {
     height: 330px;
     background-size: cover;
+    margin: 1rem 0rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    /* margin-top: 15px; */
+    height: 50px;
+    background-color: #37475a;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #232F3E;
+    color: #FFFFFF;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    border-bottom: 1px solid transparent;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+ul a:hover {
+    border-bottom: 1px solid #dddddd;
+    outline: 0;
+}
+
+.foot-panel3 {
+    background-color: #232F3E;
+    color: #FFFFFF;
+    border-top: 0.5px solid #fff;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("amazonLogo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #0F1111;
+    color: white;
+    text-align: center;
+    height: 80px;
+    padding-top: 25px;
+    font-size: 0.7 rem;
+}
+
+.copy-right {
+    padding-top: 5px;
 }
